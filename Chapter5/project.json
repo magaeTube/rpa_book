@@ -3,11 +3,11 @@
   "description": "빈 프로세스",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.9.5]",
-    "UiPath.Mail.Activities": "[1.9.5]",
-    "UiPath.PDF.Activities": "[3.3.0]",
-    "UiPath.System.Activities": "[20.10.3]",
-    "UiPath.UIAutomation.Activities": "[20.10.9]"
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.4]",
+    "UiPath.PDF.Activities": "[3.4.0]",
+    "UiPath.System.Activities": "[21.4.0]",
+    "UiPath.UIAutomation.Activities": "[21.4.3]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -51,5 +51,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
