@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="736.8,701.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="741.6,701.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="35">
       <x:String>System.Activities</x:String>
@@ -101,7 +101,7 @@
           <av:PointCollection x:Key="ConnectorLocation">150,196.5 150,246.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="초기값 설정" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence DisplayName="초기값 설정" sap:VirtualizedContainerService.HintSize="375.2,379.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -139,8 +139,8 @@
             </scg:List>
           </ui:MultipleAssign.AssignOperations>
         </ui:MultipleAssign>
-        <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlW0J0FWrNEevo0WJdrCkTgAAAAACAAAAAAAQZgAAAAEAACAAAAB6GqjsL6oILXbb2Jdc2jGD7b9PuuFOlhZ4I9DpjAUgnAAAAAAOgAAAAAIAACAAAAAo+tYGQF345A/Ma3EktA0T6DC5ctlENruVKIu1PJr+DiAAAADlkBJyHEGEU5o8DSEdMMywgagFJ2jppVAcfQ51vzXrqUAAAAA/8waa3dQn5GWMtQihcNedcmQb3xeWp7PirM+sIXaC6nS0vE6elX03vudN89zkG+dthS5J59NzlDnsZn1cuGm2" Result="[email_id]" />
-        <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlW0J0FWrNEevo0WJdrCkTgAAAAACAAAAAAAQZgAAAAEAACAAAABuEA42njg04/ckmRYrBKL2uWWneVW16bB+mWWmRGoEywAAAAAOgAAAAAIAACAAAABJv08aom74wZqe4FwPGIJP9Y8GaNQ6a3PlktiC49kBUhAAAADMrAWc0DsAYBKwTX5Akf8RQAAAAPEw7RHgejyTy8kKN0wNnhXteRCE07mUoHHVyCYnxMYnPT8yB8yhLRSknjmvg2aqqDgP1EViLiEyZS1Dxj+nKoI=" Result="[email_pwd]" />
+        <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlW0J0FWrNEevo0WJdrCkTgAAAAACAAAAAAAQZgAAAAEAACAAAABZyTrZIjwPSJPq9wVrPtgCQ74oMQm8w8dhYESxY4ENkAAAAAAOgAAAAAIAACAAAABPilKO2ENojkDVWjC/eomtOXp9YqWPGd+tS72W7JgmgxAAAABOBDVX4hKj1zkq6R9+YNWqQAAAAJNwsxgIe3Jjnpz1rKvXV8DQBPEWBbFL+e23l9Iowr8QdMdW8RwFx4tZd6D/5T62D6b0HFlmVwG+iQdio0Po2lc=" Result="[email_id]" />
+        <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlW0J0FWrNEevo0WJdrCkTgAAAAACAAAAAAAQZgAAAAEAACAAAACqiawB1lf0DumtCO4Di9poNw95OIRYX8EiHHAhE205uAAAAAAOgAAAAAIAACAAAAAXoLlRHFGgXPhMfipQ3qCo/ZQQosUsI47MFjA3HyJ1SxAAAADe9KPPddhbu4zhepUHZgE2QAAAABxQPyTSGcHQwMM6lha0dWtAsMg7dEfDfk5TVNeOXNwwROtD477K5vlqd6gKN1Gc4N2e2ui2ZdeR/aXZN0khHFs=" Result="[email_pwd]" />
       </Sequence>
       <FlowStep.Next>
         <FlowStep x:Name="__ReferenceID0">
@@ -151,7 +151,7 @@
               <av:PointCollection x:Key="ConnectorLocation">150,315.3 150,365.3</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="크롤링" sap:VirtualizedContainerService.HintSize="717.6,3100" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="크롤링" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="ui:Browser" Name="browser_naver" />
               <Variable x:TypeArguments="sd:DataTable" Name="ExtractDT" />
