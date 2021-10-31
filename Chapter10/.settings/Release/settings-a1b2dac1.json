@@ -51,5 +51,12 @@
   "UiPath.UIAutomationNext.Activities.VerifyExecution.Timeout": "10",
   "UiPath.UIAutomationNext.Activities.VerifyExecution.Retry": "True",
   "UiPath.UIAutomationNext.Activities.VerifyExecution.VerifyTypedText": "False",
-  "UiPath.UIAutomationNext.Activities.ApplicationCard.ResizeWindow": "None"
+  "UiPath.UIAutomationNext.Activities.ApplicationCard.ResizeWindow": "None",
+  "UiPath.UIAutomationNext.Activities.Generic.CaptureScreenshots": "True",
+  "UiPath.UIAutomationNext.Activities.Generic.ShowClosestMatchesInSearchError": "True",
+  "UiPath.UIAutomationNext.Activities.SearchStepsWnd.InteractionMode": "HardwareEvents",
+  "UiPath.UIAutomationNext.Activities.SearchStepsWeb.EdgeInteractionMode": "DebuggerApi",
+  "UiPath.UIAutomationNext.Activities.SearchStepsJava.InteractionMode": "HardwareEvents",
+  "UiPath.UIAutomationNext.Activities.SearchStepsSAP.InteractionMode": "HardwareEvents",
+  "UiPath.UIAutomationNext.Activities.VerifyExecution.VerifyActivities": "False"
 }
